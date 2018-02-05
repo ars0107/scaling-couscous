@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Family Recipes</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Rock+Salt" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fontawesome-free-5.0.3/web-fonts-with-css/css/fa-solid.css">
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <div id="myNavbar" class= "navbar navbar-default navbar-fixed-top home-page" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">Home</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="appetizers.html">Appetizers</a></li>
+                    <li><a href="breakfast.html">Breakfast</a></li>
+                    <li><a href="entree.html">Entrees</a></li>
+                    <li><a href="dessert.html">Desserts</a></li>                
+                    <li><a href="about.html">About</a></li>                
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="recipes">
+        <div class="col-md-3">
+            <div class="row">
+                <h5>What are we makin'?</h5>
+            </div>
+            <div class="row">
+                <ul>
+                    <a href="#biscuits"><li>Biscuits</li></a>
+                    <a href="#frenchToast"><li>French Toast</li></a>
+                    <a href="#pancakes"><li>Pan Cakes</li></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div id="biscuits">
+            <div class="row">
+                <h3>Biscuits</h3>
+                <h4>Ingredients</h4>
+                <table>
+                    <tr><td>2 cups sifted, all purpose flour</td></tr>
+                    <tr><td>1 tbsp baking powder</td></tr>   
+                    <tr><td>1 tsp salt</td></tr>
+                    <tr><td>6 tbsp shortening or bacon drippings</td></tr>
+                    <tr><td>3/4 cup milk (fresh, sour, or buttermilk)</td></tr>
+                </table>
+            </div>
+            <div class="row">
+                <h4>Preparation</h4>
+                <table>
+                    <tr><td>Sift dry ingredients together</td></tr>
+                    <tr><td>Cut in shortening</td></tr>
+                    <tr><td>Stir in milk</td></tr>
+                    <tr><td>Fold in flour to make soft dough</td></tr>
+                    <tr><td>Knead the dough on lightly floured surface</td></tr>
+                    <tr><td>Roll or pat out to about 1/2 inch thick</td></tr>
+                    <tr><td>Cut and place on un-greased baking sheet</td></tr>
+                    <tr><td>Bake at 450* for 10 - 12 minutes</td></tr>
+                </table>
+            </div>
+            <div class="row">
+                <p>Makes about 20 biscuits</p>
+            </div>
+        </div>
+        <hr>
+        <div id="dinnerRolls">
+            <div class="row">
+                <h3>Dinner Rolls</h3>
+                <h4>Ingredients</h4>
+                <table>
+                    <tr><td>3 packages of dry yeast</td></tr>
+                    <tr><td>5 cups lukewarm water</td></tr>
+                    <tr><td>1 cup sugar</td></tr>
+                    <tr><td>2/3 cup shortening</td></tr>
+                    <tr><td>2 tsp salt</td></tr>
+                    <tr><td>4 pounds plain flour</td></tr>
+                </table>
+            <div class="row"></div>
+                <h4>Preparation</h4>
+                <table>
+                    <tr><td>Mix yeast, sugar, and water in large bowl</td></tr>
+                    <tr><td>Melt shortening and add yeast to mixture</td></tr>
+                    <tr><td>Add salt</td></tr>
+                    <tr><td>Slowly add flour</td></tr>
+                    <tr><td>Knead into firm dough</td></tr>
+                    <tr><td>Roll out and place in baking dish</td></tr>
+                    <tr><td>Allow to set at room temperature for about two hours, or until rolls double in size</td></tr>
+                    <tr><td>Bake at 375* for about 15 minutes</td></tr>
+                </table>
+            </div>    
+            <div class="row">
+                <p>Yields 48 rolls</p>
+                <p>From Beatrice Fontenot's recipe collection</p>    
+            </div>
+        </div>
+        <div class="row">
+            <button onclick="topFunction()" id="myBtn" title="Top">Back to Top</button>
+        </div>
+    </div>
+    <script>
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+        <!-- All compiled plugins -->
+        <script src="js/bootstrap.min.js"></script>    
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
