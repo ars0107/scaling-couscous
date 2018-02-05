@@ -81,6 +81,7 @@ h1, #favorites {
 
 #frenchToast, #biscuits, #pancakes {
     background-color: cornsilk;
+    background-image: url("../images/notebook_@2X.png") !important;
     padding-left: 25px;
     border-radius: 3px;
     margin-top: 10px;
