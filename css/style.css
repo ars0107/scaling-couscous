@@ -13,17 +13,47 @@ body, .navbar {
     color: rgb(243, 200, 200) !important;
 }
 .header {
-    padding-top: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     text-align: center;
+}
+
+#myBtn {
+    background-color: rgba(0, 0, 0, 0);
+    color: cornsilk;
+    border-radius: 5px;
+    padding: 5px;
 }
 .row {
     padding: 10px;
 }
 
-h1, h4 {
+h1, #favorites {
     text-align: center;
     color: cornsilk;
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Rock Salt', cursive !important;
+}
+
+.recipes ul {
+    list-style: none;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.recipes {
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: 'Rock Salt', cursive !important;
+}
+
+.recipes h5 {
+    color: cornsilk;
+    text-align: center;
+    font-size: 25px;
+}
+
+.recipes h4 {
+    font-family: sans-serif !important;
 }
 
 .header h1 {
@@ -34,4 +64,17 @@ h1, h4 {
 
 .header h4 {
     font-size: 40px;
+}
+
+#cheeseStraws h3, 
+#dinnerRolls h3 {
+    text-align: left;
+    color: cornsilk;
+    font-family: 'Rock Salt', cursive !important;
+    padding-bottom: 10px !important;
+}
+
+#dinnerRolls, #cheeseStraws {
+    color: cornsilk;
+    padding: 20px;
 }
