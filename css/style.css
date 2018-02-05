@@ -78,3 +78,10 @@ h1, #favorites {
     color: cornsilk;
     padding: 20px;
 }
+
+#frenchToast, #biscuits, #pancakes {
+    background-color: cornsilk;
+    padding-left: 25px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
