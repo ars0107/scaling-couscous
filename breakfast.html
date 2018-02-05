@@ -39,6 +39,8 @@
             </div>
         </div>
     </div>
+
+    <!-- Breakfast Recipes -->
     <div class="recipes">
         <div class="col-md-3">
             <div class="row">
@@ -106,36 +108,45 @@
                     <tr><td>Butter toast and serve</td></tr>
                 </table>
             </div>  
-            <hr>
-            <div id="panCakes">
-                <div class="row">
-                    <h3>Pancakes</h3>
-                    <h4>Ingredients</h4>
-                    <table>
-                        <tr><td>2 eggs</td></tr>
-                        <tr><td>2 1/2 cups milk</td></tr>
-                        <tr><td>1/4 cup cooking oil</td></tr>
-                        <tr><td>2 1/2 cups flour</td></tr>
-                        <tr><td>1 tbsp baking powder</td></tr>
-                        <tr><td>1 tsp salt</td></tr>
-                    </table>
-                <div class="row"></div>
-                    <h4>Preparation</h4>
-                    <table>
-                        <tr><td>Beat eggs, milk, and oil together in a large mixing bowl</td></tr>
-                        <tr><td>Sift flour, baking powder, and salt together</td></tr>
-                        <tr><td>Stir the dry ingredients into the liquid</td></tr>
-                        <tr><td>Heat a well-oiled frying pan to 350*</td></tr>
-                        <tr><td>Pour about 1/4 cup of batter for each cake onto the pan</td></tr>
-                        <tr><td>Flip the cakes when bubbles come through to the top</td></tr>
-                    </table>
-                </div>    
-            </div>
+        </div>
+        <hr>
+        <div id="pancakes">
+            <div class="row">
+                <h3>Pancakes</h3>
+                <h4>Ingredients</h4>
+                <table>
+                    <tr><td>2 eggs</td></tr>
+                    <tr><td>2 1/2 cups milk</td></tr>
+                    <tr><td>1/4 cup cooking oil</td></tr>
+                    <tr><td>2 1/2 cups flour</td></tr>
+                    <tr><td>1 tbsp baking powder</td></tr>
+                    <tr><td>1 tsp salt</td></tr>
+                </table>
+            <div class="row"></div>
+                <h4>Preparation</h4>
+                <table>
+                    <tr><td>Beat eggs, milk, and oil together in a large mixing bowl</td></tr>
+                    <tr><td>Sift flour, baking powder, and salt together</td></tr>
+                    <tr><td>Stir the dry ingredients into the liquid</td></tr>
+                    <tr><td>Heat a well-oiled frying pan to 350*</td></tr>
+                    <tr><td>Pour about 1/4 cup of batter for each cake onto the pan</td></tr>
+                    <tr><td>Flip the cakes when bubbles come through to the top</td></tr>
+                </table>
+            </div>    
+        </div>
         <div class="row">
             <button onclick="topFunction()" id="myBtn" title="Top">Back to Top</button>
         </div>
     </div>
     <script>
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
         function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
